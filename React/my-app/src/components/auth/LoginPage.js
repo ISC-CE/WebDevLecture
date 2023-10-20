@@ -15,6 +15,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Send a POST request to the login endpoint with 'formData'
+    console.log(formData);
     // Example: axios.post('/auth/login', formData)
   };
 
